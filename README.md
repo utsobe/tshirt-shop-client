@@ -1,11 +1,17 @@
-# Getting Started with Create React App
+# T-Shirt Shop
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Live Website Link
 
-In the project directory, you can run:
+https://product-analysis-web-assignment-9.netlify.app/
 
+## Website Details
+
+* This is a T-Shirt Shop website for customer reviews.
+* React Router is used for navigation.
+* In dashboard it shows 4 different charts, which created from rechart.
+* For customer review, created fakeData and fetched to show data on UI.
 ### `npm start`
 
 Runs the app in the development mode.\
