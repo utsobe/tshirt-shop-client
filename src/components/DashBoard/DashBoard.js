@@ -1,6 +1,5 @@
 import axios from 'axios';
 import React, { useEffect, useState } from 'react';
-import { Line, LineChart } from 'recharts';
 import TheAreaChart from '../TheAreaChart/TheAreaChart';
 import TheBarChart from '../TheBarChart/TheBarChart';
 import TheLineChart from '../TheLineChart/TheLineChart';
@@ -13,7 +12,7 @@ const DashBoard = () => {
             .then(data => setData(data))
     }, []);
     return (
-        <div className='grid grid-cols-2 gap-12 my-10'>
+        <div className='grid grid-cols-2 gap-12 my-10 w-3/4 mx-auto'>
             <div className='flex items-center justify-center'>
                 <TheLineChart data={data}></TheLineChart>
             </div>

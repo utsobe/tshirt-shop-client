@@ -9,6 +9,12 @@ const TheBarChart = ({ data }) => {
                 width={350}
                 height={200}
                 data={data.data}
+                margin={{
+                    top: 0,
+                    right: 0,
+                    left: 14,
+                    bottom: 0,
+                }}
             >
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="month" />
