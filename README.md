@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Live Website Link
 
-https://product-analysis-web-assignment-9.netlify.app/
+[https://product-analysis-web-assignment-9.netlify.app/](https://product-analysis-web-tshirt-shop.netlify.app/)
 
 ## Website Details
 
